@@ -26,24 +26,29 @@
                 android:spinnerMode="dialog" />
             <Button
                 android:id="@+id/button_starttime"
-                android:layout_width="100dp"
-                android:layout_height="40dp"
+                android:layout_width="80sp"
+                android:layout_height="32sp"
                 android:layout_gravity="center"
-                android:text="Start Time" />
+                android:text="Start Time"
+                android:textSize="10sp"/>
             <Button
                 android:id="@+id/button_endtime"
-                android:layout_width="100dp"
-                android:layout_height="40dp"
+                android:layout_width="80sp"
+                android:layout_height="32sp"
                 android:layout_gravity="center"
-                android:text="End Time"/>
+                android:text="End Time"
+                android:textSize="10sp"/>
             <Button
                 android:id="@+id/button_done"
-                android:layout_width="100dp"
-                android:layout_height="30dp"
+                android:layout_width="70sp"
+                android:layout_height="15sp"
                 android:layout_gravity="center"
                 android:background="@color/green"
-                android:text="Done"/>
+                android:text="Done"
+                android:textSize="10sp"/>
+            
         </LinearLayout>
     </ScrollView>
+
 
 </LinearLayout>
